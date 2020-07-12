@@ -1,0 +1,316 @@
+html,body,h1,h2,h3,h4,h5,h6,p,div,hr,form,table,fieldset,legend,textarea,img,ol,li,ul,dl,dt,dd,input,button,header,nav,footer,section,article,aside,main,aside,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 12px;/* 将页面文字先设置成常用的12px */
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;/* 去除超链接下划线 */
+}
+ul,ol,li{
+    list-style: none;/* 去除列表样式 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;/* 将加粗标签变常规 */
+}
+input,button{
+    outline: 0;/* input点击时的聚焦线去掉 */
+}
+i,em{
+    font-style: normal;/* 倾斜字体变常规 */
+}
+img{
+    vertical-align: middle;/* 图片文字垂直居中对齐 */
+}
+.noborder{
+    border:0!important;/* 去除边框 */
+}
+.clearFix:after{  /* 解决高度塌陷 */
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+    /* overflow: hidden; */
+}
+body{
+    font-size: 0.12rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 1.86rem;
+    background: #161618;
+    font-size: 0.32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+header div:nth-of-type(1){
+    text-align: center;
+}
+header div:nth-of-type(1) a:nth-of-type(1){
+    color: #c8a06a;
+}
+header div:nth-of-type(1) a{
+    padding:0 0.28rem;
+    
+}
+header div:nth-of-type(2){
+    display: flex;
+    padding:0 0.28rem;
+    justify-content: space-between;
+}
+header div a{
+    color: #999999;
+}
+header .iconfont{
+    font-size: 0.32rem;
+    color: #999999;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+}
+header p i{
+    font-size: 0.36rem;
+    color: blueviolet;
+}
+header div:nth-of-type(2) a:nth-of-type(1){
+    color: #c8a06a;
+}
+header div:nth-of-type(2){
+    position: relative;
+}
+header div:nth-of-type(2) i{
+    display: block;
+    width: 0.24rem;
+    height: 0.06rem;
+    background-color: #c8a06a;
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.45rem;
+}
+main{
+    width: 100%;
+    flex: 1;
+    position: relative;
+    overflow: auto;
+}
+main div:nth-of-type(1) img{
+    width: 7.5rem;
+    height: 3.76rem;
+}
+main div:nth-of-type(2){
+    height: 3.28rem;
+    line-height: 0.4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+main div:nth-of-type(2) h2{
+    font-size: 0.4rem;
+    margin-left: 0.27rem;
+}
+main div:nth-of-type(2) img{
+    width: 0.44rem;
+    height: 0.52rem;
+    margin-right: 0.23rem;
+    padding-bottom: 0.1rem;
+}
+main div:nth-of-type(2) i{
+    font-size: 0.26rem;
+    color: #d9d9d9;
+}
+main div:nth-of-type(2) a{
+    font-size: 0.26rem;
+    color: #d9d9d9;
+    padding-bottom: 0.1rem;
+    margin-right: 0.12rem;
+}
+
+main div:nth-of-type(3){
+    width: 7.02rem;
+    height: 2.44rem;
+    background: #ffffff;
+    position: absolute;
+    top: 3.2rem;
+    left: 0.24rem;
+    box-shadow: 0 0.2rem 0.2rem 0.001rem #999999;
+    display: flex;
+    flex-direction: column;
+}
+main div:nth-of-type(3) ol{
+    display: flex;
+}
+main div:nth-of-type(3) ol img{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-top: 0.24rem;
+    margin-left: 0.24rem;
+}
+main div:nth-of-type(3) li:nth-of-type(1){
+    font-size: 0.28rem;
+    color: #c8a06a;
+    padding-bottom: 0.05rem;
+}
+main div:nth-of-type(3) li:nth-of-type(2){
+    font-size: 0.26rem;
+    color: #999999;
+}
+main div:nth-of-type(3) ul{
+    margin-left: 0.17rem;
+    margin-top: 0.33rem;
+    position: relative;
+}
+main div:nth-of-type(3) ul img{
+    width: 0.97rem;
+    height: 0.33rem;
+    position: absolute;
+    top: -0.2rem;
+    left: 1.5rem;
+}
+main div:nth-of-type(3) ol button{
+    width: 1.36rem;
+    height: 0.6rem;
+    border-radius: 0.35rem;
+    background: #e7c680;
+    color: #000000;
+    border: none;
+    font-size: 0.26rem;
+    margin-top: 0.39rem;
+    margin-left: 2.5rem;
+}
+main div:nth-of-type(3) p{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 0.30rem;
+}
+main div:nth-of-type(3) p a:nth-of-type(1){
+    font-size: 0.26rem;
+    color: #666666;
+    line-height: 0.4rem;
+}
+main div:nth-of-type(3) p a:nth-of-type(1) i{
+    display: block;
+    font-size: 0.35rem;
+    color: #e7c282;
+}
+main div:nth-of-type(3) p a:nth-of-type(2){
+    font-size: 0.26rem;
+    color: #666666;
+    line-height: 0.4rem;
+}
+main div:nth-of-type(3) p a:nth-of-type(2) i{
+    display: block;
+    font-size: 0.35rem;
+    color: #e7c282;
+}
+main div:nth-of-type(3) p a:nth-of-type(3){
+    font-size: 0.26rem;
+    color: #666666;
+    line-height: 0.4rem;
+}
+main div:nth-of-type(3) p a:nth-of-type(3) i{
+    display: block;
+    font-size: 0.35rem;
+    color: #e7c282;
+}
+main div:nth-of-type(3) p a:nth-of-type(4){
+    font-size: 0.26rem;
+    color: #666666;
+    line-height: 0.4rem;
+}
+main div:nth-of-type(3) p a:nth-of-type(4) i{
+    display: block;
+    font-size: 0.35rem;
+    color: #e7c282;
+}
+main div:nth-of-type(4){
+    width: 100%;
+    margin-top: 0.28rem;
+    font-size: 0.26rem;  
+    overflow-x: auto;
+    height: 0.48rem;
+}
+main div:nth-of-type(4) ul{
+    width: 10.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+main div:nth-of-type(4) a{
+    color: #333333;
+}
+main div:nth-of-type(4) li:nth-of-type(1) a{
+    color: #c8a06a;
+}
+main div:nth-of-type(5){
+    display: flex;
+    justify-content: space-around;
+}
+main div:nth-of-type(6){
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+main div:nth-of-type(7){
+    width: 7.02rem;
+    height: 0.79rem;
+    background: #f9f9f9;
+    text-align: center;
+    line-height: 0.79rem;
+    margin-bottom: 0.35rem;
+    margin-top: 0.44rem;
+    margin-left: 0.24rem;
+    border-radius: 0.15rem;
+
+}
+main div:nth-of-type(7) a{
+    font-size: 0.25rem;
+    color: #666666;
+}
+footer{
+    height: 0.99rem;
+    background: #f7f9f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+footer a{
+    font-size: 0.2rem;
+    color: #666666;
+}
+footer i{
+    display: block;
+}
+footer i:nth-of-type(1){
+    font-size: 0.47rem;
+}
+footer i:nth-of-type(2){
+    font-size: 0.5rem;
+}
+footer i:nth-of-type(3){
+    font-size: 0.46rem;
+}
+footer i:nth-of-type(4){
+    font-size: 0.49rem;
+}
+footer h6{
+    font-size: 0.2rem;
+    color: #bd985f;
+}

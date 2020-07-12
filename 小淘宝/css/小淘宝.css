@@ -1,0 +1,302 @@
+html,body,h1,h2,h3,h4,h5,h6,p,div,hr,form,table,fieldset,legend,textarea,img,ol,li,ul,dl,dt,dd,input,button,header,nav,footer,section,article,aside,main,aside,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 12px;/* 将页面文字先设置成常用的12px */
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;/* 去除超链接下划线 */
+}
+ul,ol,li{
+    list-style: none;/* 去除列表样式 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;/* 将加粗标签变常规 */
+}
+input,button{
+    outline: 0;/* input点击时的聚焦线去掉 */
+}
+i,em{
+    font-style: normal;/* 倾斜字体变常规 */
+}
+img{
+    vertical-align: middle;/* 图片文字垂直居中对齐 */
+}
+.noborder{
+    border:0!important;/* 去除边框 */
+}
+.clearFix:after{  /* 解决高度塌陷 */
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+html,body{
+    height: 100%;
+}
+header{
+    height: 1.76rem;
+    display: flex;
+    flex-direction: column;
+}
+header div:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.8rem;
+}
+header i{
+    margin-left: 0.3rem;
+}
+header em{
+    margin-right: 0.31rem;
+}
+header div:nth-of-type(2){
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.8rem;
+}
+header .iconfont{
+    font-size: 0.4rem;
+}
+header span{
+    font-size: 0.3rem;
+}
+header div:nth-of-type(2) a{
+    color: #333333;
+    font-size: 0.26rem;
+}
+header div:nth-of-type(2) a:nth-of-type(1){
+    color: #ff2220;
+    font-size: 0.26rem;
+}
+main{
+    background: #f4f4f4;
+    flex: 1;
+    overflow: auto;
+    padding-top: 0.01rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main div{
+    /* 370 574 */
+    width: 3.7rem;
+    height: 5.74rem;
+    background: #fff;
+    margin-bottom: 0.1rem;
+}
+main div:nth-of-type(1) img{
+    width: 3.7rem;
+    height: 3.7rem;
+}
+main div:nth-of-type(1) h4{
+    font-size: 0.26rem;
+    color: #061b28;
+    text-align: left;
+    margin-left: 0.2rem;
+    margin-top: 0.17rem;
+    line-height: 0.36rem;
+}
+main div:nth-of-type(1) ul{
+    margin-left: 0.2rem; 
+    padding: 0.22rem 0;
+    margin-right: 0.2rem;
+}
+main div:nth-of-type(1) li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.22rem;
+}
+main div:nth-of-type(1) h4 span{
+    font-size: 0.26rem;
+    color: #061b28;
+    width: 0.5rem;
+    height: 0.28rem;
+    background: #ff5000;
+}
+main div:nth-of-type(1) li:nth-of-type(1) span,strong{
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+main div:nth-of-type(1) li:nth-of-type(2) span{
+    font-size: 0.22rem;
+    color: #ff2220;
+}
+main div:nth-of-type(1) li:nth-of-type(2) strong{
+    font-size: 0.28rem;
+    color: #ff211f;
+}
+main div:nth-of-type(1) li:nth-of-type(2) a{
+    font-size: 0.22rem;
+    color: #ffffff;
+    display: inline-block;
+    width: 1.16rem;
+    height: 0.4rem;
+    background: #ff6a36;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 0.1rem;
+}
+
+main div:nth-of-type(2) img{
+    width: 3.7rem;
+    height: 3.7rem;
+}
+main div:nth-of-type(2) h4{
+    font-size: 0.26rem;
+    color: #061b28;
+    text-align: left;
+    margin-left: 0.2rem;
+    margin-top: 0.17rem;
+    line-height: 0.36rem;
+}
+main div:nth-of-type(2) ul{
+    margin-left: 0.2rem; 
+    padding: 0.22rem 0;
+    margin-right: 0.2rem;
+}
+main div:nth-of-type(2) li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.22rem;
+}
+main div:nth-of-type(2) h4 span{
+    font-size: 0.26rem;
+    color: #061b28;
+    width: 0.5rem;
+    height: 0.28rem;
+    background: #ff5000;
+}
+main div:nth-of-type(2) li:nth-of-type(1) span,strong{
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+main div:nth-of-type(2) li:nth-of-type(2) span{
+    font-size: 0.22rem;
+    color: #ff2220;
+}
+main div:nth-of-type(2) li:nth-of-type(2) strong{
+    font-size: 0.28rem;
+    color: #ff211f;
+}
+main div:nth-of-type(2) li:nth-of-type(2) a{
+    font-size: 0.22rem;
+    color: #ffffff;
+    display: inline-block;
+    width: 1.16rem;
+    height: 0.4rem;
+    background: #ff6a36;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 0.1rem;
+}
+
+main div:nth-of-type(3) img{
+    width: 3.7rem;
+    height: 3.7rem;
+}
+main div:nth-of-type(3) h4{
+    font-size: 0.26rem;
+    color: #061b28;
+    text-align: left;
+    margin-left: 0.2rem;
+    margin-top: 0.17rem;
+    line-height: 0.36rem;
+}
+main div:nth-of-type(3) ul{
+    margin-left: 0.2rem; 
+    padding: 0.22rem 0;
+    margin-right: 0.2rem;
+}
+main div:nth-of-type(3) li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.22rem;
+}
+main div:nth-of-type(3) h4 span{
+    font-size: 0.26rem;
+    color: #061b28;
+    width: 0.5rem;
+    height: 0.28rem;
+    background: #ff5000;
+}
+main div:nth-of-type(3) li:nth-of-type(1) span,strong{
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+main div:nth-of-type(3) li:nth-of-type(2) span{
+    font-size: 0.22rem;
+    color: #ff2220;
+}
+main div:nth-of-type(3) li:nth-of-type(2) strong{
+    font-size: 0.28rem;
+    color: #ff211f;
+}
+main div:nth-of-type(3) li:nth-of-type(2) a{
+    font-size: 0.22rem;
+    color: #ffffff;
+    display: inline-block;
+    width: 1.16rem;
+    height: 0.4rem;
+    background: #ff6a36;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 0.1rem;
+}
+
+main div:nth-of-type(4) img{
+    width: 3.7rem;
+    height: 3.7rem;
+}
+main div:nth-of-type(4) h4{
+    font-size: 0.26rem;
+    color: #061b28;
+    text-align: left;
+    margin-left: 0.2rem;
+    margin-top: 0.17rem;
+    line-height: 0.36rem;
+}
+main div:nth-of-type(4) ul{
+    margin-left: 0.2rem; 
+    padding: 0.22rem 0;
+    margin-right: 0.2rem;
+}
+main div:nth-of-type(4) li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.22rem;
+}
+main div:nth-of-type(4) h4 span{
+    font-size: 0.26rem;
+    color: #061b28;
+    width: 0.5rem;
+    height: 0.28rem;
+    background: #ff5000;
+}
+main div:nth-of-type(4) li:nth-of-type(1) span,strong{
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+main div:nth-of-type(4) li:nth-of-type(2) span{
+    font-size: 0.22rem;
+    color: #ff2220;
+}
+main div:nth-of-type(4) li:nth-of-type(2) strong{
+    font-size: 0.28rem;
+    color: #ff211f;
+}
+main div:nth-of-type(4) li:nth-of-type(2) a{
+    font-size: 0.22rem;
+    color: #ffffff;
+    display: inline-block;
+    width: 1.16rem;
+    height: 0.4rem;
+    background: #ff6a36;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 0.1rem;
+}

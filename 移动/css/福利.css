@@ -1,0 +1,206 @@
+html,body,h1,h2,h3,h4,h5,h6,p,div,hr,form,table,fieldset,legend,textarea,img,ol,li,ul,dl,dt,dd,input,button,header,nav,footer,section,article,aside,main,aside,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 12px;/* 将页面文字先设置成常用的12px */
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;/* 去除超链接下划线 */
+}
+ul,ol,li{
+    list-style: none;/* 去除列表样式 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;/* 将加粗标签变常规 */
+}
+input,button{
+    outline: 0;/* input点击时的聚焦线去掉 */
+}
+i,em{
+    font-style: normal;/* 倾斜字体变常规 */
+}
+img{
+    vertical-align: middle;/* 图片文字垂直居中对齐 */
+}
+.noborder{
+    border:0!important;/* 去除边框 */
+}
+.clearFix:after{  /* 解决高度塌陷 */
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-size: 0.12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 0.48rem;
+    background: #0085cf;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+header p span{
+    font-size: 0.25rem;
+    color: #ffffff;
+    margin-left: 0.1rem;
+}
+header p{
+    font-size: 0.17rem;
+    color: #ffffff;
+}
+header a{
+   margin-right: 0.16rem;
+}
+header a i{
+    font-size: 0.25rem;
+    color: #ffffff;
+}
+header em{
+    width: 0.16rem;
+    height: 0.16rem;
+    background: #ff0000;
+    font-size: 0.06rem;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.16rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.05rem;
+}
+/*        nav             */
+nav{
+    height: 1.5rem;
+}
+nav div:nth-of-type(1){
+    height: 0.35rem;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.13rem;
+}
+nav h2{
+    font-size: 0.16rem;
+    color: #333333;
+}
+nav div:nth-of-type(1) a{
+    width: 0.5rem;
+    height: 0.21rem;
+    border: 1px solid #dddddd;
+    text-align: center;
+    line-height: 0.21rem;
+    border-radius: 0.25rem;
+    color: #999999;
+}
+nav div:nth-of-type(2){
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+nav div:nth-of-type(2) a{
+    font-size: 0.12rem;
+    color: #686868;
+}
+nav div:nth-of-type(2) i{
+    font-size: 0.37rem;
+    color: #2eb3e8;
+    display: block;
+}
+nav div:nth-of-type(2) a:nth-of-type(3) span{
+    font-size: 0.56rem;
+}
+nav div:nth-of-type(3){
+    height: 0.145rem;
+    background: #f6f6f6;
+    border-bottom: 0.005rem solid #dddddd;
+}
+
+
+
+/*                 main                */
+main{
+    flex: 1;
+    border: 0.005rem solid #dddddd;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+main div:first-child{
+    width: 0.9rem;
+}
+main div:first-child li{
+    width: 0.9rem;
+    height: 0.6rem;
+    border-bottom: 0.005rem solid #dddddd;
+    text-align: center;
+    line-height: 0.6rem;
+    background: #f6f6f6;
+    color: #333333;
+    font-size: 0.13rem;
+}
+main div:first-child li:first-child{
+    background: #fff;
+}
+main div:last-child{
+    margin-top: 0.73rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+main div:last-child a{
+    font-size: 0.12rem;
+    color: #686868;
+    width: 0.85rem;
+}
+main div:last-child i{
+    font-size: 0.37rem;
+    display: block;
+    color: #2eb3e8;
+}
+
+/*      footer      */
+
+footer{
+     height: 0.51rem;
+     border-top: 0.005rem solid #eeeeee;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+}
+footer i{
+    display: block;
+    font-size: 0.25rem;
+    color: #c6c4da;
+}
+footer a{
+    font-size: 0.1rem;
+    color: #c6c4da;
+}
+footer a:nth-of-type(2){
+    color: #2697f3;
+}
+footer a:nth-of-type(2) i{
+    color: #2697f3;
+}

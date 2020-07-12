@@ -1,0 +1,93 @@
+{
+  "id": "1927796",
+  "name": "爱奇艺VIP",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2299446",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12575798",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "3162013",
+      "name": "JD",
+      "font_class": "JD",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "4705638",
+      "name": "推荐",
+      "font_class": "tuijian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4860220",
+      "name": "福利",
+      "font_class": "fuli",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "6813600",
+      "name": "签到",
+      "font_class": "qiandao",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "7466130",
+      "name": "泡泡",
+      "font_class": "paopao",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "7613990",
+      "name": "资产",
+      "font_class": "zichan",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "8841504",
+      "name": "小箭头",
+      "font_class": "xiaojiantou",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "9974916",
+      "name": "热点",
+      "font_class": "redian",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "13382068",
+      "name": "我 的 (5)",
+      "font_class": "wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14480420",
+      "name": "Vip",
+      "font_class": "Vip",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    }
+  ]
+}
